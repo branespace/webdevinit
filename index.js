@@ -1,5 +1,1 @@
-"use strict";
-
-var path = process.cwd(),
-    fs = require('fs'),
-    source = __dirname;
+module.exports = require(__dirname + '/lib/prepper');
