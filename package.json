@@ -1,5 +1,5 @@
 {
-  "name": "projectprepper",
+  "name": "prepproject",
   "version": "1.0.0",
   "description": "Creates basic directory structures, sets up jshint, gulp, mocha, and chai.",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/branespace/projectprepper.git"
+    "url": "git+https://github.com/branespace/prepproject.git"
   },
   "author": "Gregory Irwin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/branespace/projectprepper/issues"
+    "url": "https://github.com/branespace/prepproject/issues"
   },
-  "homepage": "https://github.com/branespace/projectprepper#readme",
+  "homepage": "https://github.com/branespace/prepproject#readme",
   "devDependencies": {
     "chai": "^3.2.0",
     "gulp": "^3.9.0",
