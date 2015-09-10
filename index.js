@@ -1,1 +1,5 @@
-module.exports = require(__dirname + '/lib/prepper');
+"use strict";
+
+var prepper = require('./lib/prepper');
+
+prepper();
