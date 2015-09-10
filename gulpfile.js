@@ -5,14 +5,14 @@ var gulp = require('gulp'),
     mocha = require('gulp-mocha'),
     files = ['*/**.js', '!./node_modules/**'];
 
-gulp.task('default', ['jshint', 'mocha']);
+gulp.task('default', ['outerjshint', 'outermocha']);
 
-gulp.task('mocha', function () {
+gulp.task('outermocha', function () {
     return gulp.src(files)
-        .pipe(mocha({reporter: 'nyan'}));
+        .pipe(mocha());
 });
 
-gulp.task('jshint', function () {
+gulp.task('outerjshint', function () {
    return gulp.src(files)
     .pipe(jshint());
 });
