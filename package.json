@@ -1,8 +1,9 @@
 {
   "name": "prepproject",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Creates basic directory structures, sets up jshint, gulp, mocha, and chai.",
   "main": "index.js",
+  "readme": "README.md",
   "directories": {
     "test": "test",
     "bin": "bin"
