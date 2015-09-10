@@ -4,7 +4,8 @@
   "description": "Creates basic directory structures, sets up jshint, gulp, mocha, and chai.",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "bin": "bin"
   },
   "scripts": {
     "test": "mocha"
